@@ -1,0 +1,30 @@
+num1 = int(input('Enter First number: '))
+num2 = int(input('Enter Second number '))
+
+#for addition
+sum= num1+num2
+print('Sum of ',num1 ,'and' ,num2 ,'is :',sum)
+
+#for sub
+sub= num1-num2
+print('Difference of ',num1 ,'and' ,num2 ,'is :',sub)
+
+#for div
+div= num1/num2
+print('Division of ',num1 ,'and' ,num2 ,'is :',div)
+
+#for product
+product= num1*num2
+print('Product of ',num1 ,'and' ,num2 ,'is :',product)
+
+#for floor divison
+floor_div = num1 // num2
+print('Floor division of ',num1 ,'and' ,num2 ,'is :',floor_div)
+
+#for power
+power = num1 ** num2
+print('Power of ',num1 ,'and' ,num2 ,'is :',product)
+
+#for modulus
+modulus = num1 % num2
+print('Modulus of ',num1 ,'and' ,num2 ,'is :',modulus)
